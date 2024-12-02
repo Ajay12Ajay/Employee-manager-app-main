@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Homenaje&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.card {
+      margin: 10px;
+      height: 80vh;
+      width: 25vw;
+      background-color: rgb(255, 255, 255);
+      border-radius: 30px;
+      background: #ffffff;
+      box-shadow: 15px 15px 30px #bebebe,
+                 -15px -15px 30px #ffffff;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-family: "poppins";
+      
+  }
+  .card p{
+      font-weight:600;
+
+  }
+  #des{
+      display: flex;
+    gap: 5px;
+  }
+  #des p:nth-last-child(1){
+      display: flex;
+      float: right;
+      justify-content: end;
+  }
+  #pr{
+      display: flex;
+      gap: 5px;
+  }
+.status{
+  height: 12px;
+  width: 10vw;
+  padding:2px 9px;
+  margin-left: 5px;
+  border-radius: 15px;
+  border:none;
+  color: rgb(92, 152, 2);
+  background-color: rgba(180, 248, 79, 0.565);
+}
+.top{
+  height: 20vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.statu {
+  margin-top: 3vh;
+  height: 6vh;
+  width: 9vw;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  cursor: pointer; 
+  transition: background-color 0.3s, transform 0.3s ease-in-out, box-shadow 0.3s; 
+}
+
+.statu:hover {
+  background-color: rgba(31, 31, 31, 0.8);
+  color: white;
+  transform: translateY(-2px); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.538);
+}
+
+
+    .card p {
+      margin: 5px ;
+      font-size: 20px;
+    
+    }
+    .date{
+      display: flex;
+      justify-content: space-between;
+      gap: 2vw;
+    }
+    .down1 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      gap: 5vw;
+      overflow-y: scroll;
+     
+    }
+    .down4 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+     
+    }
+    #btn{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    ::-webkit-scrollbar{
+      width: 10px;
+    }
+    ::-webkit-scrollbar-track{
+      background-color: white;
+    }
+    ::-webkit-scrollbar-thumb{
+      background-color: rgb(3, 0, 0);
+      border-radius: 10px; 
+    }
+
+
+
+    .card1 {
+      margin: 4px;
+      height: 70vh;
+      width: 45vw;
+      background-color: rgb(255, 255, 255);
+      border-radius: 30px;
+      background: #ffffff;
+      box-shadow: 15px 15px 30px #bebebe,
+                  -15px -15px 30px #ffffff;
+      padding: 20px;
+      margin-top: 15vh;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      font-family: "poppins";
+    }
+    .card4 {
+      margin: 4px;
+      height: 50vh;
+      width: 45vw;
+      background-color: rgb(255, 255, 255);
+      border-radius: 30px;
+      background: #ffffff;
+      box-shadow: 15px 15px 30px #bebebe,
+                  -15px -15px 30px #ffffff;
+      padding: 20px;
+      margin-top: 15vh;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      font-family: "poppins";
+    }
+    
+    .inputContainer , .inputCont {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+   .inputContainer1 , .inputCont1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .inputContainer , .inputCont p {
+      margin: 0;
+      font-weight: 600;
+    }
+    
+    .inputContainer , .inputCont input {
+      border-radius: 10px;
+      border: none;
+      width: 16vw;
+      gap: 5px;
+      margin-left: 5px;
+    } 
+    
+    .statusInd{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    }
+    .update{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .down3{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 60vh;
+      
+    }
+    .card3{
+      height: 70vh;
+      width: 45vw;
+      box-shadow: 15px 15px 30px #bebebe,
+      -15px -15px 30px #ffffff;
+      backdrop-filter: blur(5px);
+       padding: 30px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      font-family: "poppins";
+    }
+    
+      .statu1 {
+        margin-top: 3vh;
+        height: 6vh;
+        width: 9vw;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+        cursor: pointer; 
+        transition: background-color 0.3s, transform 0.3s ease-in-out, box-shadow 0.3s; 
+      }
+      
+      .statu1:hover {
+        background-color: rgba(31, 31, 31, 0.8);
+        color: white;
+        transform: translateY(-2px); 
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.538);
+      }
+    .st1{
+      background-color:rgba(116, 116, 221, 0.868);
+      color: rgb(1, 1, 72);
+    }
+    .st2{
+      background-color:rgba(226, 234, 114, 0.864);
+      color: rgb(72, 72, 1);
+    }
+    .st3{
+      background-color:rgba(230, 187, 127, 0.839);
+      color: rgb(72, 46, 1);
+    }
+    .st4{
+      background-color:rgba(134, 236, 130, 0.841);
+      color: rgb(1, 72, 5);
+    }
+
+
+    

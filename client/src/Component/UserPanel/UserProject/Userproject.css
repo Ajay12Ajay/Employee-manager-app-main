@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Homenaje&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.usercard {
+      margin: 16px;
+      height: 80vh;
+      width: 30vw;
+      background-color: rgb(255, 255, 255);
+      backdrop-filter: blur(10px);
+      border-radius: 30px;
+      background: #ffffff;
+      box-shadow: 15px 15px 30px #bebebe,
+                 -15px -15px 30px #ffffff;
+      padding: 20px;
+      margin-top: 1px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      font-family:"Poppins";
+  }
+  
+  .usercard p {
+      margin: 0;
+      font-weight: 500;
+      font-size: 23px;
+      color: #000000;
+  }
+  
+  .usercard span {
+      font-weight: 700;
+      color: #3d3d3d;
+  }
+  
+  .usercard .status {
+      color: #008000;
+      font-weight: 700;
+  }
+  
+  .usercard .date, .usercard #des, .usercard #pr {
+      margin-top: 10px;
+  }
+  

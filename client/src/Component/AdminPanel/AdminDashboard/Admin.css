@@ -1,0 +1,35 @@
+.up1{
+  display: flex;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+      /* align-items: center; */
+      justify-content: left;
+      flex-direction: row;
+      padding: 2vw;
+}
+.text2{
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  font-family: "poppins";
+}
+.main3{
+  margin-top: 10vh;
+  height: 50vh;
+}
+.addEmp1{
+/* margin-top: 110px;
+margin-left: 80px; */
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+  
+    
+    
+   
+ 
+    
