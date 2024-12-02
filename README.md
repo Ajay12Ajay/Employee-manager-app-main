@@ -1,1 +1,1 @@
-this is group project done by Excelr team
+This is a group project done by us , group formed in excelr.
